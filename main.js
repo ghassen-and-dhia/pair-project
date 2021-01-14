@@ -1,6 +1,9 @@
 $(document).ready(function(){
+	$(".start").hide()
 	$(".newgamebtn").click(function(){
-		$(".main").slideDown();
+		$(".game").slideDown();
+		$(".start").show();
+
 	})
 });
 $(document).ready(function(){
