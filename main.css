@@ -16,7 +16,7 @@
 
 .newgamebtn{
 	margin-top: 25px;
-	background:green;
+	background:#2295aa;
 	font-family: 'OpenSansYtoKRegular';
 }
 
@@ -70,3 +70,52 @@
 	color : gold;
 }
 
+.player p{
+	font-weight: bold;
+	color: #2295aa;
+}
+
+.vs {
+	width: 15%;
+	display: inline-block;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 24px;
+	color:gold;
+}
+
+.hands{
+	width: 11%;
+	height: auto;
+	display: inline-block;
+}
+
+.hands1{
+	width: 70%;
+	display: inline-block;
+}
+
+.hands1 img{
+	width: 40%;
+	padding-bottom: 10px;
+}
+
+.hands1 .result{
+	font-size: 22px;
+	font-weight:bold;
+}
+
+.hands img{
+	cursor:pointer;
+}
+
+.hands2 img{
+	width:100%;
+	margin:5px 0;
+}
+
+.reset{
+	display:none;
+	margin-top: 20px;
+	background:red;
+}
