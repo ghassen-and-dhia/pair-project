@@ -22,10 +22,10 @@ $(document).ready(function(){
 		 num=Math.floor((Math.random()*3)+1),
 		 image2=$(".hand2");
 		if(num===1){
-			$(image2).attr("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmTi0_Qkk3aks73xCCQRBa53TiiI7QOrAvQ&usqp=CAU");
+			$(image2).attr("src","https://www.pinclipart.com/picdir/big/559-5590543_rock-paper-scissors-png-clipart.png?fbclid=IwAR0Ru1yiMyxmbf7QnCwy2nQW9Fgk1VAMf6F-GqzJ4lWELYfPECe8y60WiRw");
 
 		} else if(num===2){
-			$(image2).attr("src","https://www.pngkey.com/png/detail/816-8161571_transparent-rock-paper-scissors-png.png");
+			$(image2).attr("src","https://www.pinclipart.com/picdir/big/51-511523_rock-paper-rock-paper-scissors-clipart-png-download.png?fbclid=IwAR0OvT4XMatpObOELj1vPurpvJzgCY9XY8VQsv8v3-Zmgoz70oVk6AEl4xg");
 
 		}else if(num===3){
 			$(image2).attr("src","https://www.pinclipart.com/picdir/big/280-2802170_paper-icon-clipart.png")
@@ -36,8 +36,8 @@ $(document).ready(function(){
 			 imageattr1=$(image2).attr("src"),
 			 player=$(".player-score").html(),
 			 computer=$(".computer-score").html(),
-			 rock="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmTi0_Qkk3aks73xCCQRBa53TiiI7QOrAvQ&usqp=CAU",
-			 paper="https://www.pngkey.com/png/detail/816-8161571_transparent-rock-paper-scissors-png.png",
+			 rock="https://www.pinclipart.com/picdir/big/559-5590543_rock-paper-scissors-png-clipart.png?fbclid=IwAR0Ru1yiMyxmbf7QnCwy2nQW9Fgk1VAMf6F-GqzJ4lWELYfPECe8y60WiRw",
+			 paper="https://www.pinclipart.com/picdir/big/51-511523_rock-paper-rock-paper-scissors-clipart-png-download.png?fbclid=IwAR0OvT4XMatpObOELj1vPurpvJzgCY9XY8VQsv8v3-Zmgoz70oVk6AEl4xg",
 			 scissor="https://www.pinclipart.com/picdir/big/280-2802170_paper-icon-clipart.png";
 		     if(imageattr===rock){
 				if(imageattr1===paper){
